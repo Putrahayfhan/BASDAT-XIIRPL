@@ -1,0 +1,51 @@
+body {
+    background-image:url(23765.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: #62ffea;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    h1 {
+      color: rgb(4, 3, 3);
+      
+    }
+    
+    .login {
+      padding: 20px;
+      margin: 2em auto;
+      width: 17em;
+      background: rgb(74, 165, 153);
+      max-width: 400px;
+      padding: 40px;
+      border-radius: 50px;
+      background: rgb(33, 218, 231);
+      box-shadow: 0 40px 40px 0 rgb(1, 100, 31), inset 0 -8px 16px 0 #1ddb0c;
+    }
+    
+    label {
+      font-size: 10pt;
+      color: rgb(5, 1, 1);
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      padding: 8px;
+      width: 95%;
+      background: #efefef;
+      border: 0;
+      font-size: 10pt;
+      margin: 6px 0px;
+    }
+    
+    .tombol {
+      background: #5dff4f;
+      color: #fff;
+      border: 0;
+      padding: 5px 8px;
+      margin: 20px 0px;
+    }

@@ -1,0 +1,57 @@
+/* * {
+   /* background-color: antiquewhite; */
+ */
+
+div {
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+div h1 {
+    text-align: center;
+    color: blue;
+    /* text-transform: lowercase; */
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    /* padding-bottom: 10px; */
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.data {
+    margin-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    background-image: url(29492.jpg) ;
+    text-decoration: underline;
+    color: blue;
+    border-radius: 10px;
+}
+table {
+    /* margin-top: 10px; */
+    width: 1000px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px dashed lightgreen;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+th {
+    background-color: lightgreen;
+}
+
+input {
+    color: green;
+    background-color: white;
+    position: left;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    border: 3px solid lightgreen;
+}

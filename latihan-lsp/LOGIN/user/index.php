@@ -22,6 +22,7 @@
             echo $nama ['nama'];
         }
         ?> anda telah Login</h4> </center>
+        <button><a href="update_anggota.php?id_anggota=<?php echo $nama['id_anggota']?>">Customize</a></button>
 
         <body>
         <div class="container" style="margin-top: 80px">
@@ -42,6 +43,7 @@
             <th>pengarang</th>
             <th>tahun terbit</th>
             <th>penerbit</th>
+            <th>Aksi</th>
         </tr>
 
         <!-- menampilkan data buku -->
@@ -57,6 +59,7 @@
             echo "<td>".$thn_terbit = $row['thn_terbit']."</td>";
             echo "<td>".$penerbit = $row['penerbit']."</td>";
             ?>
+            <td><a href="keranjang.php?id_buku=<?php echo $row['id_buku']?>">Add to Cart</a></td>
             <?php 
             echo "</tr>";
         }

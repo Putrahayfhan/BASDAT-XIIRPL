@@ -9,39 +9,34 @@
         <div class="col-md-8 offset-md-2">
         <div class="card">
             <div class="card-header">
-            <h3>TAMBAH BUKU</h3>
+            <h3>Register Your acount</h3>
             </div>
             <div class="card-body">
-            <form action="proses.php" method="post">
+            <form action="../admin/proses-tambah-anggota.php" method="post">
 
             <div class="form-group">
-                <label>Masukan Id Katalog</label>
-                <input type="number" name="id_katalog" placeholder="Masukkan ID Katalog" class="form-control">
-            </div>
-
-            <div class="form-group">
-                <label>Masukan Judul Buku</label>
-                <input type="text" name="judul_buku" placeholder="Masukkan Judul Buku" class="form-control">
-            </div>
-            
-            <div class="form-group">
-                <label>Masukan pengarang</label>
-                <input type="text" name="pengarang" placeholder="Masukkan Nama Pengarang" class="form-control">
-            </div>
-            
-            <div class="form-group">
-                <label>Masukan Tahun Terbit</label>
-                <input type="date" name="thn_terbit" placeholder="Masukkan Tahun Terbit" class="form-control">
-            </div>
-            
-            <div class="form-group">
-                <label>Masukan penerbit</label>
-                <input type="text" name="penerbit" placeholder="Masukkan Penerbit" class="form-control">
+                <label>Masukan Nama</label>
+                <input type="text" name="nama" placeholder="Masukkan Nama Lengkap" class="form-control">
             </div>
 
             <div class="form-group">
-                <label>Masukan Harga</label>
-                <input type="number" name="harga" placeholder="Masukkan Harga" class="form-control">
+                <label>Masukan No Telp</label>
+                <input type="number" name="no_telp" placeholder="Masukkan Nomor Telepon" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Masukan Alamat</label>
+                <input type="text" name="alamat" placeholder="Masukkan Alamat lengkap" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Masukan Email</label>
+                <input type="text" name="email" placeholder="Masukkan Email Anda" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Masukan Password</label>
+                <input type="text" name="password" placeholder="Masukkan Password Anda" class="form-control">
             </div>
             
             <button type="submit" class="btn btn-success">GASS</button>

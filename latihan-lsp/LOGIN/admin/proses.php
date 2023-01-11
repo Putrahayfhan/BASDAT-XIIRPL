@@ -1,5 +1,5 @@
 <?php 
-    include "../koneksi_db.php";
+    include "koneksi.php";
       
 
     $id = $_POST['id_katalog'];
@@ -7,9 +7,10 @@
     $pengarang = $_POST['pengarang'];
     $thn_terbit = $_POST['thn_terbit'];
     $penerbit = $_POST['penerbit'];
+    $harga = $_POST['harga'];
 
 
-    $input = mysqli_query($koneksi,"insert into buku values('','$id','$judul','$pengarang','$thn_terbit','$penerbit')");
+    $input = mysqli_query($koneksi,"insert into buku values('','$id','$judul','$pengarang','$thn_terbit','$penerbit','$harga')");
 
     if($input){
         ?>

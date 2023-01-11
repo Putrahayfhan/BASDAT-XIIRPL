@@ -28,6 +28,7 @@
                     <td>Kembali ke Menu Utama <a href="../index.php">sini</a></td>
                 </tr>
             </table>
+            <h4>Anda belom Punya Akun?? Daftar dlu yuks <a href="daftar.php">GASSSS</a></h4>
         </form>
     </div>
     </body>

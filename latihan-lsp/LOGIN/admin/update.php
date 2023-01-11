@@ -35,6 +35,9 @@
                 <label>Masukan penerbit</label>
                 <input type="text" name="penerbit" value="<?php echo $meledak['penerbit']; ?>">
                 <br>
+                <label>Masukan Harga</label>
+                <input type="number" name="harga" value="<?php echo $meledak['harga']; ?>">
+                <br>
             <input type="submit" value="Rubah">
             <?php 
             }

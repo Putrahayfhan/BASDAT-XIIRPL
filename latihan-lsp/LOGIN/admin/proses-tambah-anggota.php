@@ -1,5 +1,5 @@
 <?php 
-    include "../koneksi_db.php";
+    include "koneksi.php";
       
 
     $nama = $_POST['nama'];
@@ -15,20 +15,17 @@
         ?>
         <script>
             alert('Data berhasil Ditambahkan!!');
-            window.location = "index.php";
+            window.location = "login_admin.php";
         </script>
         <?php
     }else{
         ?>
         <script>
-        alert('Data Gagal Ditambahkan');
-        window.location = "index.php"
+            alert('Data Gagal Ditambahkan');
+            window.location = "login_admin.php"
         </script>
         <?php
     }
-
-
-    
-
-    
+// Alih ke index
+header("location:login_admin.php")
 ?>
